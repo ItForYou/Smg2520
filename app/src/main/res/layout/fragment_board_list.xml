@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".bbs.BoardListFragment"
+    android:orientation="vertical">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/bbsTabMenuLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:visibility="gone"
+        app:tabGravity="center"
+        app:tabIndicatorColor="#482d3c"
+        app:tabMode="scrollable"
+        app:tabPaddingEnd="8sp"
+        app:tabPaddingStart="8sp"
+        app:tabSelectedTextColor="#482d3c"
+        app:tabTextColor="#664c53">
+
+    </android.support.design.widget.TabLayout>
+
+    <ListView
+        android:id="@+id/bbsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:isScrollContainer="true"
+        android:paddingBottom="60dp"
+        android:scrollbarAlwaysDrawHorizontalTrack="true" />
+</LinearLayout>

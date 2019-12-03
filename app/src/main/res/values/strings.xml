@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">따르릉</string>
+    <string name="domain">http://smg2520.itforone.co.kr/</string>
+    <string name="url">http://smg2520.itforone.co.kr/</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="store0">food</string>
+    <string name="store1">butcher</string>
+    <string name="store2">hardware</string>
+    <string name="store3">hospital</string>
+    <string name="store4">pharmacy</string>
+    <string name="store5">traditional</string>
+    <string name="store6">clothing</string>
+    <string name="store7">cosmetics</string>
+    <string name="title_activity_my_page">MyPageActivity</string>
+
+
+</resources>
